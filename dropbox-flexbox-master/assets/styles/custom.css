@@ -7,11 +7,11 @@ body {
     font-family: 'SharpGroteskWide','Open Sans',sans-serif;
 }
 
-.fundo-do-cabeçalho {
+.fundo-do-cabecalho {
     background: #0d2f81;
 }
 
-.cabeçalho {
+.cabecalho {
     display: flex;
     margin: 0 auto;
     max-width: 1229px;
@@ -118,11 +118,11 @@ body {
     margin: 0px 0px 16px 0px;
 }
 
-.maçante-background {
+.macante-background {
     background: #ffe7aa;
 }
 
-.maçante {
+.macante {
     margin: 0 auto;
     max-width: 1229px;
     display: flex;
@@ -187,7 +187,7 @@ body {
     flex-wrap: wrap;
 }
 
-.botão-recursos {
+.botao-recursos {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -198,12 +198,12 @@ body {
     margin: 0px 0px 0px 232px;
 }
 
-.botão-recursos a {
+.botao-recursos a {
     color: #000;
     padding: 9.5px 47.5px 9.5px 47.5px;
 }
 
-.botão-recursos a:hover {
+.botao-recursos a:hover {
     background-color: #F5F5F5;
 }
 
@@ -285,11 +285,11 @@ a {
     max-height: 44px;
 }
 
-.fundo-do-rodapé {
+.fundo-do-rodape {
     background: #000000;
 }
 
-.rodapé {
+.rodape {
     margin: 0 auto;
     max-width: 1229px;
     max-height: 635px;
@@ -349,7 +349,7 @@ ul {
     text-decoration: underline;
 }
 
-.linguagem-e-país {
+.linguagem-e-pais {
     max-width: 120px;
     max-height: 130px;
     margin: 0px 0px 0px 70px;
@@ -357,54 +357,54 @@ ul {
     border-top: 1px solid white;
 }
 
-.linguagem-e-país a {
+.linguagem-e-pais a {
     font-size: 13px;
     color: #767676;
 }
 
-.linguagem-e-país a:hover {
+.linguagem-e-pais a:hover {
     color: #fff;
     text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
-    .cabeçalho { justify-content: center; flex-wrap: nowrap; padding: 0px 40px 0px 40px; }
+    .cabecalho { justify-content: center; flex-wrap: nowrap; padding: 0px 40px 0px 40px; }
     .concentre-se image { max-width: 512px; }
     .div-image { max-width: 512px; }
     .div-image img { max-width: 512px; }
-    .botão-recursos { margin: 0px 0px 0px 97px; }
+    .botao-recursos { margin: 0px 0px 0px 97px; }
     .plano-1 { margin: 0px 0px 0px 57px; max-width: 480px; }
     .listas { margin: 162px 0px 122px 50px; }
     .lista-2 { margin: 0px 30px 0px 0px; }
 }
 
 @media (max-width: 768px) {
-    .cabeçalho { flex-wrap: wrap; padding: 20px 0px 0px 0px;}
+    .cabecalho { flex-wrap: wrap; padding: 20px 0px 0px 0px;}
     .barra-menu { margin: 0px 0px 0px 0px; justify-content: center;}
-    .maçante { flex-direction: column; max-height: 1000px; }
+    .macante { flex-direction: column; max-height: 1000px; }
     .div-texto { max-width: 500px; margin: 60px 0px 60px 60px; }
     .div-texto p { padding: 0px 0px 0px 0px; }
     .div-image img { padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px; }
-    .botão-recursos { margin: 0px 0px 0px 40px; }
+    .botao-recursos { margin: 0px 0px 0px 40px; }
     .saiba-mais-texto { max-width: 400px; margin: 123px 0px 123px 60px; }
     .plano-1 { max-width: 300px; margin: 0px 45px 0px 45px; }
     .plano-2 { max-width: 300px; margin: 0px 45px 0px 0px; }
     .concentre-se { margin: 0px 0px 0px 60px; }
-    .maçante { margin: 0px 0px 0px 60px; }
+    .macante { margin: 0px 0px 0px 60px; }
     .listas ul { max-width: 120px; }
     .listas { margin: 162px 0px 122px 40px; }
-    .rodapé { max-height: 670px; }
+    .rodape { max-height: 670px; }
 }
 
 @media (max-width: 767px) {
-    .cabeçalho { flex-wrap: wrap; padding: 20px 0px 0px 0px; }
+    .cabecalho { flex-wrap: wrap; padding: 20px 0px 0px 0px; }
     .barra-menu { margin: 0px 0px 0px 0px; justify-content: center; }
     .h { max-height: 450px; }
     .h h1 { max-height: 250px; max-width: 340px; padding: 0px 0px 0px 55px; font-size: 40px; line-height: 46px; }
     .h h3 { margin-bottom: 20px; font-size: 25px; }
     .p { max-width: 350px; }
     .p p { max-width: 350px; }
-    .maçante { flex-direction: column; }
+    .macante { flex-direction: column; }
     .concentre-se image { max-width: 295px; }
     .div-image { max-width: 295px; }
     .div-image img { max-width: 295px; padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px; }
@@ -412,16 +412,16 @@ ul {
     .div-texto p { padding: 0px 0px 0px 0px; }
     .saiba-mais { flex-direction: column; max-height: 450px; }
     .saiba-mais-texto { margin: 90px 0px 70px 60px; }
-    .botão-recursos { margin: 0px 0px 60px 0px; }
+    .botao-recursos { margin: 0px 0px 60px 0px; }
     .planos { flex-direction: column; }
     .cont { max-height: 800px; }
     .cont h1 { margin: 60px 0px 50px 50px; max-width: 300px; }
     .plano-1 { margin: 0px 0px 60px 50px; }
     .plano-2 { margin: 0px 0px 0px 50px; }
     .concentre-se { margin: 0px 0px 0px 0px; }
-    .maçante { margin: 0px 0px 0px 0px; }
+    .macante { margin: 0px 0px 0px 0px; }
     .listas { flex-direction: column; margin: 162px 89.5px 122px 130px; }
-    .rodapé { max-height: 1650px; }
+    .rodape { max-height: 1650px; }
     .lista-1 { margin: 0px 15px 70px 0px; }
     .lista-2 { margin: 0px 110px 70px 0px; }
     .lista-3 { margin: 0px 27px 70px 0px; }
